@@ -64,7 +64,6 @@ export const getInvoices = async (req, res) => {
       });
     }
 
-    // Return paginated response
     res.status(200).json({
       invoices,
       pagination: {

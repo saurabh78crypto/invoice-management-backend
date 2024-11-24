@@ -11,8 +11,8 @@ const app = express();
 connectDB();
 
 // Middleware
-app.use(express.json()); // For parsing JSON requests
-app.use(cors()); // Enable CORS
+app.use(express.json()); 
+app.use(cors()); 
 
 // Routes
 app.use('/api/invoices', invoiceRoutes);

@@ -40,7 +40,5 @@ const invoiceSchema = new mongoose.Schema(
   }
 );
 
-// Create and export the model
 const Invoice = mongoose.model('Invoice', invoiceSchema);
-
 export default Invoice;
