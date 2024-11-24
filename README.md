@@ -5,17 +5,17 @@ This is the backend for the **Invoice Management System**, developed using Node.
 ## Features
 
 - **Invoice CRUD Operations**
- - Create, read, update, and delete invoices.
+    - Create, read, update, and delete invoices.
 
 - **Filtering and Pagination** 
- - Filter invoices by status.
- - Support for paginated results.
+    - Filter invoices by status.
+    - Support for paginated results.
 
 - **Search Functionality**
- - Search invoices by vendor name or invoice number.
+    - Search invoices by vendor name or invoice number.
 
 - **Scalable and Maintainable**
- - Built with modular and RESTful principles.
+    - Built with modular and RESTful principles.
 
 
 ## Technologies Used
@@ -40,8 +40,8 @@ Follow the steps below to set up and run the backend locally:
 
 1. **Clone the repository:**
 ```bash
-git clone
-cd
+git clone https://github.com/saurabh78crypto/invoice-management-backend.git
+cd invoice-management-backend
 ```
 
 2. **Install dependencies:**
